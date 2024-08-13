@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "599121896950",
+    "firebase_url": "https://projectworkshop-f0ed3-default-rtdb.firebaseio.com",
+    "project_id": "projectworkshop-f0ed3",
+    "storage_bucket": "projectworkshop-f0ed3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:599121896950:android:f99100f36cc071066653d7",
+        "android_client_info": {
+          "package_name": "rzl.belajar.projectworkshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "599121896950-hrrisnue1fa5rdf99ilracn7hacmvpah.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rzl.belajar.projectworkshop",
+            "certificate_hash": "1f42bc300a496d9a3122c0ba9d19249cd2a6eb86"
+          }
+        },
+        {
+          "client_id": "599121896950-9sf3skkhv0evkrsfm3fgvpuqfdtniadc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOtnGWYxgrDfu5DDn8hczHanIIPusMj4M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "599121896950-9sf3skkhv0evkrsfm3fgvpuqfdtniadc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    tools:context=".view.HomeFragment">
+
+    <TextView
+        android:id="@+id/tv_hello"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        tools:text="Hello,\nPablo Escobar"
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="24sp"
+        android:textColor="@color/black"/>
+
+
+
+    <!--    LIST EMPTY-->
+    <RelativeLayout
+        android:id="@+id/list_empty"
+        android:layout_below="@id/tv_hello"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_marginTop="100dp"
+            android:id="@+id/img_empty"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:visibility="visible"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/list_kosong"/>
+        <TextView
+            android:id="@+id/tv_empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No tasks\nAdd new task to start"
+            android:gravity="center"
+            android:visibility="visible"
+            android:textColor="@color/black"
+            android:layout_below="@id/img_empty"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/poppins_semibold"
+            android:textSize="18sp"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_list"
+            tools:listitem="@layout/item_ta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
